@@ -62,7 +62,14 @@ body {
     }
 }
 
+.top-bar {
+    color: $white;
 
-a:hover {
-    color: $success;
+    a {
+        color: $white;
+    }
+
+    li {
+        text-transform: uppercase;
+    }
 }
