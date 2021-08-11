@@ -72,4 +72,13 @@ body {
     li {
         text-transform: uppercase;
     }
+
+    a:hover {
+        color: $secondary;
+    }
+
+    a.current {
+        color: $primary;
+        border-bottom: 3px solid $primary;
+    }
 }
