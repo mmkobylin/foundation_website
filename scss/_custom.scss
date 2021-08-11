@@ -65,6 +65,14 @@ body {
 .top-bar {
     color: $white;
 
+
+    span {
+        background-color: $dark-gray;
+        color: darken($primary, 30%);
+        margin-right: 14px;
+        padding: 0 5px;
+               
+    }
     a {
         color: $white;
     }
