@@ -1,5 +1,5 @@
 body {
-    background-color:pink;
+    background-color: $medium-gray;
 }
 
 .top-nav {
@@ -26,6 +26,12 @@ body {
     margin: 0;
     list-style-type: none;
     overflow: hidden;
+
+    li {
+        color: blue;
+        padding: 10px 15px;
+
+    }
 }
 
 .top-list-right {
