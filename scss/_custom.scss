@@ -1,5 +1,5 @@
 body {
-    background-color: lawngreen;
+    background-color: $success;
 }
 
 .top-nav {
@@ -20,6 +20,20 @@ body {
     list-style-type: none;
     overflow: hidden;
 }
+
+li {
+    list-style: none;
+    float: left;
+    padding: 10px 15px;
+    color: $light;
+    font-size: 13px;
+}
+
+.top-list li i {
+    padding: 8px;
+}
+
+
 
 .top-list-right {
     color: $white;
