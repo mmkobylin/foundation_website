@@ -1,5 +1,5 @@
 body {
-    background-color: lawngreen;
+    background-color:pink;
 }
 
 .top-nav {
@@ -10,8 +10,15 @@ body {
     width: 100%;
 }
 
-.top-nav a {
+.top-nav {
+
+    a {
     color: lightblue;
+    }
+    li {
+        padding: 10px 15px;
+    }
+
 }
 
 .top-list {
