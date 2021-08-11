@@ -28,9 +28,20 @@ body {
     overflow: hidden;
 
     li {
-        color: blue;
+        list-style: none;
+        color: $light-gray;
+        float: left;
+        font-size: 13px;
         padding: 10px 15px;
 
+    }
+
+    li:first-child {
+        padding-left: 0;
+    }
+
+    li i {
+        padding-right: 8px;
     }
 }
 
@@ -40,4 +51,13 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
+
+    li {
+        list-style: none;
+        color: $light-gray;
+        float: right;
+        font-size: 13px;
+        padding: 10px 15px;
+
+    }
 }
