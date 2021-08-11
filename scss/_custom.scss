@@ -54,10 +54,15 @@ body {
 
     li {
         list-style: none;
-        color: $light-gray;
+        color: $white;
         float: right;
         font-size: 13px;
         padding: 10px 15px;
 
     }
+}
+
+
+a:hover {
+    color: $success;
 }
