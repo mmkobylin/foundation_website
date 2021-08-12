@@ -95,4 +95,37 @@ body {
     background: url(../img/showcase.jpg) no-repeat;
     color: $white;
     min-height: 450px;
+
+    .showcase-box {
+        padding: 20px 30px;
+        margin-top: 30px;
+        background-color: $success-color;
+        color: $white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+
+    }
+
+    .showcase-box-bottom {
+        background-color: $primary;
+        color: $white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+
+        .pricing span {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .start-link {
+            padding-top: 20px;
+            color: $white;
+        }
+
+        p {
+            border-bottom:1px $white solid;
+            padding-bottom:10px;
+        }
+    }
 }
