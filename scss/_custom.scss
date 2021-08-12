@@ -90,3 +90,9 @@ body {
         border-bottom: 3px solid $primary;
     }
 }
+
+.showcase {
+    background: url(../img/showcase.jpg) no-repeat;
+    color: $white;
+    min-height: 450px;
+}
