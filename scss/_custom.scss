@@ -104,18 +104,24 @@ body {
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
 
+        p {
+            border-bottom:1px $white solid;
+            padding-bottom:10px;
+        }
+
     }
 
     .showcase-box-bottom {
-        background-color: $primary;
+        background-color: $black;
         color: $white;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
+        padding: 10px;
 
 
         .pricing span {
             font-weight: bold;
-            font-size: 14px;
+            font-size: 35px;
         }
 
         .start-link {
