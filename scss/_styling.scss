@@ -18,4 +18,38 @@ body {
 
     // nesting possible in foundation
     
+    li {
+        color: $light-gray;
+        float: left;
+        font-size: 16px;
+        list-style: none;
+        padding: 10px 15px;
+    }
+
+    li i {
+        padding-right: 8px;
+    }
+
+    li i:first-child {
+        padding-left: 0;
+    }
+}
+
+.top-list-right {
+    float: right;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+    // nesting possible in foundation
+    
+    li {
+        color: $light-gray;
+        float: left;
+        font-size: 16px;
+        list-style: none;
+        padding: 10px 15px;
+    }
+
 }
