@@ -29,6 +29,10 @@
     li i:first-child {
         padding-left: 0;
     }
+
+    a {
+        color: lighter( $primary 0%);
+    }
 }
 
 .top-list-right {
@@ -72,6 +76,7 @@
     li {
         text-transform: uppercase;
         float: right;
+        padding: 10px;
     }
 
     a {
@@ -82,13 +87,14 @@
         color: darken($warning, 30%);
     }
 
-    a .current {
+    .current {
         color: $secondary;
         border-bottom: 3px solid $secondary;
     }
 }
 
-
-
+.top-bar-left {
+    padding: 0 100px;
+}
 
 
