@@ -1,7 +1,3 @@
-body {
-    background-color: bisque;
-}
-
 .top-nav {
     background-color: $dark-gray;
     color: $white;
@@ -14,7 +10,7 @@ body {
     list-style: none;
     margin: 0;
     overflow: hidden;
-    padding: 0;
+    padding: 10px;
 
     // nesting possible in foundation
     
@@ -52,4 +48,16 @@ body {
         padding: 10px 15px;
     }
 
+    // links more visible
+    a {
+        color: $success;
+    }
+    a:hover {
+        color: $warning;
+    }
+
 }
+
+
+
+
