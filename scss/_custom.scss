@@ -58,6 +58,37 @@
 
 }
 
+.top-bar {
+
+    color: $white;
+
+    span {
+        background-color: $dark-gray;
+        color: lighten( $primary, 30% );
+        padding-left: 5px 9px;
+        margin-right: 4px;
+    }
+
+    li {
+        text-transform: uppercase;
+        float: right;
+    }
+
+    a {
+        color: $primary;
+    }
+
+    a:hover {
+        color: darken($warning, 30%);
+    }
+
+    a .current {
+        color: $secondary;
+        border-bottom: 3px solid $secondary;
+    }
+}
+
+
 
 
 
