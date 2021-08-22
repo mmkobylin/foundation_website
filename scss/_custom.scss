@@ -31,7 +31,7 @@
     }
 
     a {
-        color: lighter( $primary 0%);
+        color: $extra;
     }
 }
 
@@ -54,7 +54,7 @@
 
     // links more visible
     a {
-        color: $success;
+        color: $extra;
     }
     a:hover {
         color: $warning;
@@ -82,11 +82,13 @@
     }
 
     a {
-        color: $primary;
+        
+        color: $secondary;
+        font-weight: bold;
     }
 
     a:hover {
-        color: darken($warning, 30%);
+        color: $dark-gray;
     }
 
     .current {
@@ -115,7 +117,7 @@
     }
 
     .showcase-box-bottom {
-        background-color: darken($warning, 30%);
+        background-color: darken($extra, 15%);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         margin-bottom: 30px;
@@ -123,7 +125,7 @@
     }
 
     a {
-        color: $success;
+        color: $dark-gray
     }
 
     span {
