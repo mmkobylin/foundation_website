@@ -147,7 +147,34 @@
     }
 }
 
+.p-box-1, .p-box-2, .p-box-3 {
 
+    background: $light-gray;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+
+    .fa {
+        font-size: 60px;
+    }
+
+    .features {
+        margin: 20px 0 30px 0;
+    }
+
+    li {
+        border-bottom: solid 1px $medium-gray;
+        padding: 10px 0;
+
+    }
+
+    button {
+        display: block;
+        width: 90%;
+        margin: 10% 0 !important;
+    }
+}
 
 
 
