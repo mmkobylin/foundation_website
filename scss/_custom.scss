@@ -176,7 +176,43 @@
     }
 }
 
+.p-box-1 {
+    .fa {
+        color:$extra; 
+    }
 
+    .pricing span {
+        color: $extra;
+        font-size: 35px;
+        font-weight: bold;
 
+    }
+}
+
+.p-box-2 {
+    .fa {
+        color:$secondary; 
+    }
+
+    .pricing span {
+        color: $secondary;
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+}
+
+.p-box-3 {
+    .fa {
+        color:$warning; 
+    }
+
+    .pricing span {
+        color: $warning;
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+}
 
 
