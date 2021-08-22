@@ -65,19 +65,27 @@
 // 1. Global
 // ---------
 
+
+$primary: #654F6F;
+$secondary: #5C5D8D;
+$success: #A8C69F;
+$warning: #E9AFA3;
+$alert: #CCE2A3;
+$medium-gray: #99A1A6;
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
-  success: #3adb76,
-  warning: #ffae00,
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  warning: $warning,
   alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$medium-gray: $medium-gray;
+$dark-gray: #303F40;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -157,7 +165,7 @@ $header-styles: (
   medium: (
     'h1': ('font-size': 48),
     'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
+    'h3': ('font-size': 32),
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
     'h6': ('font-size': 16),
@@ -871,8 +879,8 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-padding: 1.5rem;
+$topbar-background: $medium-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
