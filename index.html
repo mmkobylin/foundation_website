@@ -102,14 +102,30 @@
 
     <section class="home-packages grid-x">
       <div class="columns large-12 medium-12">
+        <!-- text center is a class -->
         <h2 class="text-center">Hosting Packages For Everyone</h2>
-        <p class="lead text-center">We have hosting packages for individuals and businesses of all types</p>
+        <p class="text-center lead">We have hosting packages for individuals and businesses of all types</p>
         <br>
+        <!-- this starts tabs -->
         <ul class="tabs" data-tabs id="package-tabs">
-          <li class="tabs-title is-active"><a href="#shared" aria-selected="true">Shared Hosting</a></li>
+          <!-- list items create the tab section  -->
+          <!-- is-active class automatically changes the styling -->
+          <li class="tabs-title is-active"><a href="#shared">Shared hosting</a></li>
           <li class="tabs-title"><a href="#vps">Cloud VPS</a></li>
-          <li class="tabs-title"><a href="#dedicated">Dedicated Servers</a></li>
+          <li class="tabs-title"><a href="#dedicated">Dedicated</a></li>
         </ul>
+
+        <div class="tabs-content">
+          <div class="tabs-panel is-active">
+            SHARED
+          </div>
+          <div class="tabs-panel">
+            VPS
+          </div>
+          <div class="tabs-panel">
+            DEDICATED
+          </div>
+        </div>
 
       </div>
     </section>
