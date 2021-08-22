@@ -3,6 +3,8 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import '../../../bower_components/font-awesome/scss/font-awesome';
+
 
 // Global styles
 @include foundation-global-styles;
