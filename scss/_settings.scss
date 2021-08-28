@@ -105,7 +105,7 @@ $global-text-direction: ltr;
 $global-flexbox: true;
 $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
-$global-color-pick-contrast-tolerance: 0;
+$global-color-pick-contrast-tolerance: 1;
 $print-transparent-backgrounds: true;
 $print-hrefs: true;
 
@@ -306,11 +306,12 @@ $button-font-weight: null;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
+$button-background: $secondary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
-$button-color-alt: $black;
-$button-radius: $global-radius;
+$button-color: $black;
+// this is what color will change to if you will switch the color of background in class
+$button-color-alt: $white;
+$button-radius: 2rem;
 $button-border: 1px solid transparent;
 $button-hollow-border-width: 1px;
 $button-margin-bottom: 1rem;
@@ -326,6 +327,8 @@ $button-background-hover-lightness: -20%;
 $button-hollow-hover-lightness: -50%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 $button-responsive-expanded: false;
+$button-padding: 1rem 2rem;
+
 
 // 12. Button Group
 // ----------------
@@ -335,6 +338,8 @@ $buttongroup-spacing: 1px;
 $buttongroup-child-selector: '.button';
 $buttongroup-expand-max: 6;
 $buttongroup-radius-on-each: true;
+$button-color:$white;
+$button-font-weight: bold;
 
 // 13. Callout
 // -----------
