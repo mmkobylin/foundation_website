@@ -64,5 +64,7 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+@import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
 // custom and any other files have to be imported at the bottom
 @import 'custom';
