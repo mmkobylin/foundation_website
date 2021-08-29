@@ -163,8 +163,13 @@ a, button {
     }
 }
 
+form {
+    button {
+        margin-top: 2rem;
+    }
+}
 
-.p-box-1:hover, .p-box-2:hover, .p-box-3:hover {
+.callout:hover {
     background: darken($light-gray, 5%);
     cursor: pointer;
 }
@@ -193,7 +198,7 @@ a, button {
     button {
         display: block;
         width: 90%;
-        margin: 10% 0 !important;
+        margin: 10% 0;
     }
 }
 

@@ -70,7 +70,7 @@ $primary: #654F6F;
 $secondary: #5C5D8D;
 $success: #A8C69F;
 $warning: #E9AFA3;
-$medium-gray: #99A1A6;
+$medium-gray: #b8b7b7;
 $extra: #49BEAA;
 
 $global-font-size: 100%;
@@ -306,7 +306,7 @@ $button-font-weight: null;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $secondary-color;
+$button-background: $secondary;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $black;
 // this is what color will change to if you will switch the color of background in class
@@ -314,7 +314,6 @@ $button-color-alt: $white;
 $button-radius: 2rem;
 $button-border: 1px solid transparent;
 $button-hollow-border-width: 1px;
-$button-margin-bottom: 1rem;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
@@ -328,6 +327,7 @@ $button-hollow-hover-lightness: -50%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 $button-responsive-expanded: false;
 $button-padding: 1rem 2rem;
+$button-margin-top: 2rem;
 
 
 // 12. Button Group
@@ -492,9 +492,10 @@ $label-background: $primary-color;
 $label-color: $white;
 $label-color-alt: $black;
 $label-palette: $foundation-palette;
-$label-font-size: 0.8rem;
-$label-padding: 0.33333rem 0.5rem;
+$label-font-size: 1rem;
+$label-padding: 1rem;
 $label-radius: $global-radius;
+$label-line-height: 2.5;
 
 // 22. Media Object
 // ----------------
