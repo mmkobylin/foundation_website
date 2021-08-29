@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT Server Host</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+
   </head>
   <body>
+
+    <a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+
+    <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <h2 id="modalTitle">Awesome. I have it.</h2>
+      <p class="lead">Your couch.  It is mine.</p>
+      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+      
     <div class="top-nav">
       <div class="grid-x">
         <div class="columns large-6 medium-6">
@@ -336,7 +348,7 @@
           <p>BTHosting &copy; copyright 2021</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
         </div>
-        <div class="cell large-3">
+        <div class="cell large-3 text-center">
           <h5>Company</h5>
           <ul class="menu vertical">
             <li><a href="#">About Us</a></li>
@@ -345,7 +357,7 @@
             <li><a href="#">Site Map</a></li>
           </ul>
         </div>
-        <div class="cell large-3">
+        <div class="cell large-3 text-center">
           <h5>Support</h5>
           <ul class="menu vertical">
             <li><a href="#">Knowledgebase</a></li>
@@ -354,13 +366,12 @@
             <li><a href="#">Ticket System</a></li>
           </ul>
         </div>
-        <div class="cell large-3">
+        <div class="cell large-3 text-center">
           <img src="img/truste-seal.png">
         </div>
       </div>
     </footer>
 
-  
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
