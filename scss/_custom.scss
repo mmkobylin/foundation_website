@@ -169,7 +169,12 @@ form {
     }
 }
 
-.callout:hover {
+.callout {  
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.p-box-1:hover, .p-box-2:hover, .p-box-3:hover {
     background: darken($light-gray, 5%);
     cursor: pointer;
 }
