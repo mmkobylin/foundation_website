@@ -21,14 +21,36 @@
 
     .fa {
         transform: scale(0.9);
-        padding-top: 1.5rem;
+    }    
+
+    h3 {
+        margin: 0;
     }
-    
     img {
         margin: 2rem 1rem;
     }
 
+    menu {
+        padding-left: 50%
+    }
+
+    .section-c {
+        .fa {
+            padding-top: 1.5rem;
+        }
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
     .top-list, li {
         padding: 0;
+    }
+
+    .top-nav {
+        li {
+            font-size: 0.85;
+        }
     }
 }
