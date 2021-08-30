@@ -186,6 +186,10 @@ form {
     cursor: pointer;
 }
 
+img {
+    padding: 2rem;
+}
+
 .p-box-1, .p-box-2, .p-box-3, .about {
 
     background: $light-gray;
@@ -321,4 +325,10 @@ footer {
 label {
     font-weight: bold;
     font-size: 110%;
+}
+
+.columns {
+    
+        padding: 1rem;
+    
 }
