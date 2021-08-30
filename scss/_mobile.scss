@@ -4,7 +4,9 @@
         margin:0;
         padding:0;
     }
-    
+
+
+
     button {
         transform: scale(0.85);
     }
@@ -13,14 +15,20 @@
         font-size: 85%;
     }
 
-    .column button {
-        padding-left:2rem;
+    .columns {
+        padding: 0;
     }
 
+    .fa {
+        transform: scale(0.9);
+        padding-top: 1.5rem;
+    }
     
     img {
         margin: 2rem 1rem;
     }
 
-    
+    .top-list, li {
+        padding: 0;
+    }
 }
