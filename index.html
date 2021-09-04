@@ -14,16 +14,26 @@
   <body>
     <!-- need to include the id that matches data-open in button/link -->
     <div class="reveal" id="clientModal" data-reveal>
-      <h1>Client Login</h1>
+      <h3 class="text-center">Client Login</h3>
       <form>
-          <div class="grid-x">
-            <label></label>
-            <input>
+          <div class="grid-x grid-padding-x">
+            <label class="columns medium-10 large-offset-1 large-2 ">Username</label>
+            <input class="large-7" type="text" placeholder="username"/>
           </div>
           <div class="grid-x">
-            <label></label>
-            <input>
+            <label class="columns medium-10 large-offset-1 large-2 ">Password</label>
+            <input class="large-7" type="text" placeholder="password"/>
           </div>
+          <div class="grid-x">
+            <div class="switch">
+              <input class="switch-input" id="rememberSwitch" type="checkbox" name="rememberSwitch">
+              <label class="switch-paddle" for="rememberSwitch">
+                <span class="show-for-sr">Remember me</span>
+              </label>
+            </div>
+            <span class="remember">Remember me</span>
+          </div>
+          <button class="button secondary" type="submit">Login</button>
       </form>
     </div>
 
