@@ -13,13 +13,18 @@
   </head>
   <body>
     <!-- need to include the id that matches data-open in button/link -->
-    <div class="reveal" id="myModal" data-reveal>
-      <h1>Awesome. I Have It.</h1>
-      <p class="lead">Your couch. It is mine.</p>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="reveal" id="clientModal" data-reveal>
+      <h1>Client Login</h1>
+      <form>
+          <div class="grid-x">
+            <label></label>
+            <input>
+          </div>
+          <div class="grid-x">
+            <label></label>
+            <input>
+          </div>
+      </form>
     </div>
 
     <div class="top-nav">
@@ -34,7 +39,7 @@
         <div class="columns large-6 medium-6">
           <ul id="menu-topmenu" class="top-list float-right">
             <!-- need to include open data to open modal: -->
-						<li><a href="#" data-open="myModal">Client Login</a></li>
+						<li><a href="#" data-open="clientModal">Client Login</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="contact.html">Support</a></li>
 					</ul>
