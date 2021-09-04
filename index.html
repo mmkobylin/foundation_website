@@ -12,22 +12,36 @@
 
   </head>
   <body>
-    <div class="reveal" id="exampleModal1" data-reveal>
-      <h1>Awesome. I Have It.</h1>
-      <p class="lead">Your couch. It is mine.</p>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <!-- need to include the id that matches data-open in button/link -->
+    <div class="reveal" id="clientModal" data-reveal>
+      <h3 class="text-center">Client Login</h3>
+      <form>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="grid-x grid-padding-x">
+          <label class="columns medium-10 large-offset-1 large-2 ">Username</label>
+          <input class="large-7" type="text" placeholder="username"/>
+        </div>
+        <div class="grid-x">
+          <label class="columns medium-10 large-offset-1 large-2 ">Password</label>
+          <input class="large-7" type="text" placeholder="password"/>
+        </div>
+        <div class="grid-x">
+          <div class="switch large-offset-1 medium-offset-1 large-2 medium-2 small-4">
+            <input class="switch-input" id="rememberSwitch" type="checkbox" name="rememberSwitch">
+            <label class="switch-paddle" for="rememberSwitch">
+              <span class="show-for-sr">Remember me</span>
+            </label>
+          </div>
+          <span class="remember large-3 medium-3 small-5">Remember me</span>
+        </div>
+        <div class ="text-center">
+          <button class="button secondary" type="submit">Login</button>
+        </div>
+      </form>
     </div>
 
-    <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-      <h2 id="modalTitle">Awesome. I have it.</h2>
-      <p class="lead">Your couch.  It is mine.</p>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-    </div>
-      
     <div class="top-nav">
       <div class="grid-x">
         <div class="columns small-6 large-6 medium-5">
@@ -40,7 +54,8 @@
         <div class="columns small-12 large-6 medium-6
 ">
           <ul id="menu-topmenu" class="top-list float-right">
-						<li><a href="#" data-open="exampleModal1">Client Login</a></li>
+            <!-- need to include open data to open modal: -->
+						<li><a href="#" data-open="clientModal">Client Login</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="contact.html">Support</a></li>
 					</ul>
