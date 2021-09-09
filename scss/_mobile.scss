@@ -79,13 +79,26 @@
     .top-list .address {
         display: none;
     }
+
+    .top-bar-left h3 {
+        padding: 1rem;
+    }
+    
+    .top-bar a {
+        padding: 0.7rem 0;
+    }
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 600px) {
     
     .top-bar-left h3 {
         text-align: center;
+    }
+
+    .top-bar, .top-bar a {
+        padding: 2rem 0;
+        margin: 0;
     }
 
 }
