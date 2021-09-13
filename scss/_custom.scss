@@ -148,6 +148,24 @@ a, button {
         color: $white;
     }
 
+    li a:before {
+        background-size: cover;
+        background: url(../img/btn-bg2.png);
+        // make the actual content visible
+        content: '';
+        height: 88%;
+        right:25px; 
+        position: absolute;
+        top: 0;
+        width: 100%;
+    } 
+
+    li a span {
+        position: relative;
+        z-index: 1;
+    }
+    
+
 }
 .domain-search {
 
