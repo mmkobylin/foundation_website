@@ -157,14 +157,19 @@ a, button {
         // make the actual content visible
         content: '';
         height: 100%;
-        left:0; 
+        left: 0; 
         position: absolute;
         transition: 0.5s;
         transform-origin: right;
         top: 0;
         width: 0%;
-        z-index: -10 !important;
+        z-index: -1;
     } 
+
+    li .current span::before {
+        background: url(../img/btn-bg1.png);
+        transform-origin:  left;
+    }
 
     li span:hover::before {
         width: 100%;
@@ -172,8 +177,7 @@ a, button {
 
     li a {
         position: relative;
-        z-index: 4 !important;
-
+        z-index: 4;
     }
     
 
