@@ -146,30 +146,34 @@ a, button {
 
     li a:hover span {
         color: $white;
+        transition: 0.5s;
     }
 
     li span:before {
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         background: url(../img/btn-bg2.png);
         // make the actual content visible
         content: '';
         height: 100%;
-        right:0; 
+        left:0; 
         position: absolute;
         transition: 0.5s;
         transform-origin: right;
-        top: 50;
-        width: 0;
-        z-index: 2;
+        top: 0;
+        width: 0%;
+        z-index: -10 !important;
     } 
 
     li span:hover::before {
         width: 100%;
     }
 
-    li a span {
+    li a {
         position: relative;
         z-index: 4 !important;
+
     }
     
 
