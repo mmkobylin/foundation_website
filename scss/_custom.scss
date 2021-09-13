@@ -148,21 +148,28 @@ a, button {
         color: $white;
     }
 
-    li a:before {
+    li span:before {
         background-size: cover;
         background: url(../img/btn-bg2.png);
         // make the actual content visible
         content: '';
-        height: 88%;
-        right:25px; 
+        height: 100%;
+        right:0; 
         position: absolute;
-        top: 0;
-        width: 100%;
+        transition: 0.5s;
+        transform-origin: right;
+        top: 50;
+        width: 0;
+        z-index: 2;
     } 
+
+    li span:hover::before {
+        width: 100%;
+    }
 
     li a span {
         position: relative;
-        z-index: 1;
+        z-index: 4 !important;
     }
     
 
