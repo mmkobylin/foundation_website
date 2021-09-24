@@ -5,6 +5,7 @@
 @import 'motion-ui';
 
 
+
 // Global styles
 @include foundation-global-styles;
 @include foundation-forms;
@@ -64,8 +65,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
 // custom and any other files have to be imported at the bottom
 @import 'custom';
 @import 'mobile';
+@import 'form';
