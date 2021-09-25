@@ -65,6 +65,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';

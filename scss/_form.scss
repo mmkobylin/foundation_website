@@ -3,4 +3,43 @@
     color: $phosphor;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.form {
+    h1 {
+        margin: 5rem;
+    }
+
+    .container .row100 .columns { 
+        transition: 0.5s;
+    }
+
+    // .container .row100 .inputBox { 
+    //     transition: 0.5s;
+    //     color: $phosphor;
+    //     height: 40px;
+    //     width: 100%;
+    // }
+
+    input[type="submit"] {
+        background-color: $phosphor;
+        border:none;
+        border-radius: 2px;
+        cursor: pointer;
+        color: $black;
+        font-weight: bold;
+        margin: 2rem;
+        padding: 1rem;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+}
+
+
+input [type="submit"] :active, 
+input [type="submit"] :focus {
+    background-color: $black;
+    border: 2px solid $phosphor;
+    color: $phosphor;
 }
