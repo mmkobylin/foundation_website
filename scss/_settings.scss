@@ -72,6 +72,7 @@ $success: #A8C69F;
 $warning: #E9AFA3;
 $medium-gray: #b8b7b7;
 $extra: #49BEAA;
+$phosphor: #45f3ff;
 
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
@@ -82,6 +83,7 @@ $foundation-palette: (
   success: $success,
   warning: $warning,
   extra: $extra,
+  phospohor: $phosphor,
   alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
